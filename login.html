@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="script/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JONcoin</title>
+  </head>
+  <body>
+    <header>
+      <h3>JONcoin</h3>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#" class="ativo">Login</a></li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <!-- action="sucesso.html" method="post" -->
+        <form>
+          <div>
+            <label for="user">Usuário</label>
+            <input type="text" id="user" required />
+          </div>
+          <div>
+            <label for="pass">Senha</label>
+            <div class="alinhar">
+                <input type="password" id="pass" autocomplete="off" required />
+                <span class="lnr lnr-eye" onclick="mudarTipo()"></span>
+            </div>
+          </div>
+          <div class="alinhar">
+            <input type="checkbox" id="save" checked />
+            <label for="save">Salvar dados?</label>
+          </div>
+          <div>
+            <button>Entrar</button>
+          </div>
+
+          <a href="register.html" id="final">Criar conta</a>
+        </form>
+      </section>
+    </main>
+    <footer>
+      Desenvolvido por
+      <a href="https://github.com/jonas-henrique/" target="_blank"
+        >Jonas Henrique</a
+      >
+      - estudante de frontend
+    </footer>
+  </body>
+</html>

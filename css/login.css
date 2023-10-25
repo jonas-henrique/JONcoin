@@ -1,0 +1,36 @@
+#final {
+  float: right;
+}
+form {
+  width: 300px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px 0px 40px;
+}
+div {
+  padding-bottom: 10px;
+}
+button,
+#user,
+#cpf,
+#name,
+#date {
+  width: 100%;
+}
+#pass {
+  width: 90%;
+}
+button,
+#user,
+#cpf,
+#name,
+#date,
+#pass {
+  border-radius: 5px;
+  border: 1px solid;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.lnr {
+  cursor: pointer;
+}

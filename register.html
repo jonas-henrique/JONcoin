@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/universal.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <script src="script/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <title>JONcoin</title>
+  </head>
+  <body>
+    <header>
+      <h3>JONcoin</h3>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <form>
+          <div>
+            <label for="name">Nome completo</label>
+            <input type="text" id="name" autocomplete="off" required />
+          </div>
+          <div>
+            <label for="cpf">CPF</label>
+            <input
+              type="text"
+              id="cpf"
+              autocomplete="off"
+              maxlength="14"
+              required
+            />
+          </div>
+          <div>
+            <label for="date">Data de Nascimento</label>
+            <input type="date" id="date" autocomplete="off" required />
+          </div>
+          <div>
+            <label for="user">Usuário</label>
+            <input type="text" id="user" autocomplete="off" required />
+          </div>
+          <div>
+            <label for="pass">Senha</label>
+            <div class="alinhar">
+              <input type="password" id="pass" autocomplete="off" required />
+              <span class="lnr lnr-eye" onclick="mudarTipo()"></span>
+            </div>
+          </div>
+          <div>
+            <button>Criar conta</button>
+          </div>
+
+          <a href="login.html" id="final">Fazer login</a>
+        </form>
+      </section>
+    </main>
+    <footer>
+      Desenvolvido por
+      <a href="https://github.com/jonas-henrique/" target="_blank"
+        >Jonas Henrique</a
+      >
+      - estudante de frontend
+    </footer>
+  </body>
+</html>
