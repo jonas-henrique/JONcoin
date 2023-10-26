@@ -20,6 +20,12 @@ button,
 #pass {
   width: 90%;
 }
+main {
+  padding-top: 70px;
+  display: flex;
+  margin: auto;
+  flex: 1;
+}
 button,
 #user,
 #cpf,
